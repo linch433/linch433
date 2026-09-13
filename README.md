@@ -4,19 +4,6 @@
 
 <p align="left">🔭 I’m working on improving React web applications, building intuitive user interfaces, and contributing to projects at Appexoft.<br>🤝 I’m seeking help with advanced backend systems or optimizing full-stack applications.<br>🌱 I’m learning new React ecosystem tools, enhancing backend skills with Node.js, and exploring modern architecture patterns like microservices.<br>⚡ Fun fact: I started my career developing iOS apps before diving into the world of web development!</p>
 
-###
-
-<h1 align="left">🌐 Socials:</h1>
-
-###
-
-[![LinkedIn](https://img.shields.io/badge/linkedin-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/volodymyr-kopynets-8606b4180/)
-[![Twitter](https://img.shields.io/badge/twitter-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Linch_twir)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/kopynets.v)
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/linch433)
-
-###
-
 <h1 align="left">💻 Tech Stack:</h1>
 
 ###
