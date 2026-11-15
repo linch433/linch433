@@ -1,87 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Volodymyr Kopynets, Team Lead, Full Stack TypeScript">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b0f19"/>
-      <stop offset="0.55" stop-color="#0f1626"/>
-      <stop offset="1" stop-color="#16122b"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#58a6ff"/>
-      <stop offset="0.5" stop-color="#a371f7"/>
-      <stop offset="1" stop-color="#3fb950"/>
-    </linearGradient>
-    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#c9d7ff"/>
-    </linearGradient>
-    <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#58a6ff" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#a371f7" stop-opacity="0.30"/>
-      <stop offset="1" stop-color="#a371f7" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.2" fill="#ffffff" opacity="0.07"/>
-    </pattern>
-    <clipPath id="card"><rect width="1200" height="360" rx="24"/></clipPath>
-  </defs>
-
-  <g clip-path="url(#card)">
-    <rect width="1200" height="360" fill="url(#bg)"/>
-    <rect width="1200" height="360" fill="url(#dots)"/>
-    <circle cx="1020" cy="70" r="260" fill="url(#glowB)">
-      <animate attributeName="cy" values="70;100;70" dur="9s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="180" cy="340" r="240" fill="url(#glowA)">
-      <animate attributeName="cx" values="180;230;180" dur="11s" repeatCount="indefinite"/>
-    </circle>
-    <rect x="0" y="356" width="1200" height="4" fill="url(#accent)"/>
-  </g>
-  <rect x="0.5" y="0.5" width="1199" height="359" rx="24" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
-
-  <!-- left -->
+  <rect x="0.5" y="0.5" width="1199" height="359" rx="16" fill="#0d1117" stroke="#30363d"/>
   <g font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">
-    <g transform="translate(64 64)">
-      <rect width="232" height="32" rx="16" fill="#3fb950" fill-opacity="0.12" stroke="#3fb950" stroke-opacity="0.35"/>
-      <circle cx="18" cy="16" r="5" fill="#3fb950"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
-      <text x="32" y="21" fill="#7ee787" font-size="14" font-family="'JetBrains Mono', Consolas, monospace">Team Lead @ Appexoft</text>
-    </g>
-    <text x="64" y="160" fill="url(#name)" font-size="56" font-weight="700">Volodymyr Kopynets</text>
-    <text x="64" y="204" fill="#c9d1d9" font-size="24">Full Stack TypeScript Engineer</text>
-    <text x="64" y="238" fill="#8b949e" font-size="17">Web · Mobile · Backend   |   5+ years   |   Uzhhorod, Ukraine · Remote</text>
-
-    <g font-size="14" font-family="'JetBrains Mono', Consolas, monospace" transform="translate(64 272)">
-      <rect x="0" y="0" width="104" height="30" rx="8" fill="#3178c6" fill-opacity="0.16" stroke="#3178c6" stroke-opacity="0.5"/>
-      <text x="52" y="20" text-anchor="middle" fill="#79b8ff">TypeScript</text>
-      <rect x="114" y="0" width="74" height="30" rx="8" fill="#61dafb" fill-opacity="0.10" stroke="#61dafb" stroke-opacity="0.45"/>
-      <text x="151" y="20" text-anchor="middle" fill="#8ae4fb">React</text>
-      <rect x="198" y="0" width="84" height="30" rx="8" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.3"/>
-      <text x="240" y="20" text-anchor="middle" fill="#e6edf3">Next.js</text>
-      <rect x="292" y="0" width="84" height="30" rx="8" fill="#e0234e" fill-opacity="0.12" stroke="#e0234e" stroke-opacity="0.5"/>
-      <text x="334" y="20" text-anchor="middle" fill="#ff8aa3">NestJS</text>
-      <rect x="386" y="0" width="104" height="30" rx="8" fill="#336791" fill-opacity="0.2" stroke="#6aa0dc" stroke-opacity="0.5"/>
-      <text x="438" y="20" text-anchor="middle" fill="#9cc3ec">PostgreSQL</text>
+    <text x="64" y="104" fill="#8b949e" font-size="15" font-family="'JetBrains Mono', Consolas, monospace">Team Lead @ Appexoft</text>
+    <text x="64" y="160" fill="#e6edf3" font-size="54" font-weight="700">Volodymyr Kopynets</text>
+    <text x="64" y="202" fill="#c9d1d9" font-size="23">Full Stack TypeScript Engineer</text>
+    <text x="64" y="236" fill="#8b949e" font-size="16">Web · Mobile · Backend  ·  5+ years  ·  Uzhhorod, Ukraine · Remote</text>
+    <g font-size="14" font-family="'JetBrains Mono', Consolas, monospace" transform="translate(64 270)">
+      <rect x="0.5" y="0.5" width="112" height="29" rx="6" fill="#161b22" stroke="#30363d"/><text x="56.5" y="20" text-anchor="middle" fill="#c9d1d9">TypeScript</text>
+      <rect x="122.5" y="0.5" width="69" height="29" rx="6" fill="#161b22" stroke="#30363d"/><text x="157" y="20" text-anchor="middle" fill="#c9d1d9">React</text>
+      <rect x="201.5" y="0.5" width="86.19999999999999" height="29" rx="6" fill="#161b22" stroke="#30363d"/><text x="244.6" y="20" text-anchor="middle" fill="#c9d1d9">Next.js</text>
+      <rect x="297.7" y="0.5" width="77.6" height="29" rx="6" fill="#161b22" stroke="#30363d"/><text x="336.5" y="20" text-anchor="middle" fill="#c9d1d9">NestJS</text>
+      <rect x="385.29999999999995" y="0.5" width="112" height="29" rx="6" fill="#161b22" stroke="#30363d"/><text x="441.29999999999995" y="20" text-anchor="middle" fill="#c9d1d9">PostgreSQL</text>
+      
     </g>
   </g>
-
-  <!-- right: editor window -->
-  <g transform="translate(760 56)">
-    <rect width="380" height="236" rx="14" fill="#0d1117" fill-opacity="0.85" stroke="#30363d"/>
-    <rect width="380" height="38" rx="14" fill="#161b22"/>
-    <rect y="24" width="380" height="14" fill="#161b22"/>
-    <circle cx="22" cy="19" r="6" fill="#ff5f56"/>
-    <circle cx="42" cy="19" r="6" fill="#ffbd2e"/>
-    <circle cx="62" cy="19" r="6" fill="#27c93f"/>
-    <text x="360" y="24" text-anchor="end" fill="#6e7681" font-size="13" font-family="'JetBrains Mono', Consolas, monospace">volodymyr.ts</text>
+  <g transform="translate(760 64)">
+    <rect x="0.5" y="0.5" width="379" height="231" rx="10" fill="#161b22" stroke="#30363d"/>
+    <line x1="1" y1="36.5" x2="379" y2="36.5" stroke="#21262d"/>
+    <circle cx="20" cy="18" r="4.5" fill="#30363d"/><circle cx="36" cy="18" r="4.5" fill="#30363d"/><circle cx="52" cy="18" r="4.5" fill="#30363d"/>
+    <text x="360" y="23" text-anchor="end" fill="#6e7681" font-size="13" font-family="'JetBrains Mono', Consolas, monospace">volodymyr.ts</text>
     <g font-family="'JetBrains Mono', Consolas, monospace" font-size="15">
-      <text x="22" y="72"><tspan fill="#ff7b72">export const</tspan><tspan fill="#d2a8ff"> me</tspan><tspan fill="#e6edf3"> = {</tspan></text>
-      <text x="40" y="100"><tspan fill="#79c0ff">role</tspan><tspan fill="#e6edf3">: </tspan><tspan fill="#a5d6ff">'Team Lead'</tspan><tspan fill="#e6edf3">,</tspan></text>
-      <text x="40" y="126"><tspan fill="#79c0ff">web</tspan><tspan fill="#e6edf3">: [</tspan><tspan fill="#a5d6ff">'React'</tspan><tspan fill="#e6edf3">, </tspan><tspan fill="#a5d6ff">'Next.js'</tspan><tspan fill="#e6edf3">],</tspan></text>
-      <text x="40" y="152"><tspan fill="#79c0ff">mobile</tspan><tspan fill="#e6edf3">: [</tspan><tspan fill="#a5d6ff">'React Native'</tspan><tspan fill="#e6edf3">],</tspan></text>
-      <text x="40" y="178"><tspan fill="#79c0ff">api</tspan><tspan fill="#e6edf3">: [</tspan><tspan fill="#a5d6ff">'NestJS'</tspan><tspan fill="#e6edf3">, </tspan><tspan fill="#a5d6ff">'Fastify'</tspan><tspan fill="#e6edf3">],</tspan></text>
-      <text x="22" y="206"><tspan fill="#e6edf3">} </tspan><tspan fill="#ff7b72">satisfies</tspan><tspan fill="#ffa657"> Engineer</tspan><tspan fill="#e6edf3">;</tspan><tspan fill="#58a6ff"> ▌<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+      <text x="22" y="72"><tspan fill="#ff7b72">export const</tspan><tspan fill="#c9d1d9"> me = {</tspan></text>
+      <text x="40" y="100"><tspan fill="#79c0ff">role</tspan><tspan fill="#c9d1d9">: </tspan><tspan fill="#a5d6ff">'Team Lead'</tspan><tspan fill="#c9d1d9">,</tspan></text>
+      <text x="40" y="126"><tspan fill="#79c0ff">web</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">'React'</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">'Next.js'</tspan><tspan fill="#c9d1d9">],</tspan></text>
+      <text x="40" y="152"><tspan fill="#79c0ff">mobile</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">'React Native'</tspan><tspan fill="#c9d1d9">],</tspan></text>
+      <text x="40" y="178"><tspan fill="#79c0ff">api</tspan><tspan fill="#c9d1d9">: [</tspan><tspan fill="#a5d6ff">'NestJS'</tspan><tspan fill="#c9d1d9">, </tspan><tspan fill="#a5d6ff">'Fastify'</tspan><tspan fill="#c9d1d9">],</tspan></text>
+      <text x="22" y="206"><tspan fill="#c9d1d9">} </tspan><tspan fill="#ff7b72">satisfies</tspan><tspan fill="#d2a8ff"> Engineer</tspan><tspan fill="#c9d1d9">;</tspan></text>
     </g>
   </g>
 </svg>
