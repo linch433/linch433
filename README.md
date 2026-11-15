@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Volodymyr Kopynets · Team Lead · Full Stack TypeScript" />
+<img src="./assets/hero.svg?v=2" width="100%" alt="Volodymyr Kopynets · Team Lead · Full Stack TypeScript" />
 
 <!-- Contact buttons: uncomment and fill in when ready
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
