@@ -10,50 +10,82 @@
 
 </div>
 
----
-
-```bash
-$ whoami
-```
+<table align="center">
+<tr>
+<td width="55%" valign="top">
 
 ```yaml
+# ~ $ whoami
 name: Volodymyr Kopynets
-role: Team Lead / Full Stack Developer @ Appexoft   # since 2024
+role: Team Lead @ Appexoft   # since 2024
 experience: 5+ years
-started_with: iOS          # before moving to web
-education: B.Sc. + M.Sc. Computer Engineering, Uzhhorod National University
-languages: [Ukrainian (native), English (professional)]
+started_with: iOS            # before web
+education:
+  - B.Sc. Computer Engineering
+  - M.Sc. Computer Engineering
+  # Uzhhorod National University
+languages: [Ukrainian, English]
 ```
 
-```bash
-$ cat now.yml
-```
+</td>
+<td width="45%" valign="top">
 
 ```yaml
+# ~ $ cat now.yml
+focus:
+  - leading a full stack team
+  - shipping web + mobile
 learning:
   - AI engineering
   - system design
+location: Ukraine · remote
 ```
 
----
+</td>
+</tr>
+</table>
 
-### 🛠️ Stack
+<h3 align="center">⚡ Tech stack</h3>
+
+<table align="center">
+<tr>
+<td align="right"><b>Languages</b></td>
+<td><img src="https://skillicons.dev/icons?i=ts,js,html,css&theme=dark" height="40" /></td>
+</tr>
+<tr>
+<td align="right"><b>Frontend</b></td>
+<td><img src="https://skillicons.dev/icons?i=react,nextjs&theme=dark" height="40" /></td>
+</tr>
+<tr>
+<td align="right"><b>Mobile</b></td>
+<td>
+<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" height="32" />
+</td>
+</tr>
+<tr>
+<td align="right"><b>Backend</b></td>
+<td>
+<img src="https://skillicons.dev/icons?i=nodejs,nestjs&theme=dark" height="40" />
+<img src="https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white" height="32" />
+</td>
+</tr>
+<tr>
+<td align="right"><b>Data</b></td>
+<td><img src="https://skillicons.dev/icons?i=postgres,mongodb,redis&theme=dark" height="40" /></td>
+</tr>
+<tr>
+<td align="right"><b>Integrations</b></td>
+<td>
+<img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" height="32" />
+<img src="https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white" height="32" />
+</td>
+</tr>
+<tr>
+<td align="right"><b>Tools</b></td>
+<td><img src="https://skillicons.dev/icons?i=git,github&theme=dark" height="40" /></td>
+</tr>
+</table>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,nodejs,nestjs,postgres,mongodb,redis&perline=8" />
-</p>
-
-<p align="center">
-  <sub>React Native · Fastify · Stripe · OpenAI API</sub>
-</p>
-
----
-
-### 📊 Activity
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=linch433&theme=github-compact&hide_border=true&bg_color=0d1117" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=linch433&theme=minimal&hide_border=true" alt="Activity graph" />
-  </picture>
+  <sub>Build it typed · ship it end-to-end · keep it simple</sub>
 </p>
