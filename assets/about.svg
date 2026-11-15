@@ -1,61 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1200" height="364" viewBox="0 0 1200 364">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b0f19"/><stop offset="0.55" stop-color="#0f1626"/><stop offset="1" stop-color="#16122b"/>
-    </linearGradient>
-    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.2" fill="#ffffff" opacity="0.06"/></pattern>
-    <clipPath id="card"><rect width="1200" height="364" rx="24"/></clipPath>
-  </defs>
-  <g clip-path="url(#card)">
-    <rect width="1200" height="364" fill="url(#bg)"/>
-    <rect width="1200" height="364" fill="url(#dots)"/>
-    <rect width="1200" height="52" fill="#ffffff" fill-opacity="0.03"/>
-    <rect y="52" width="1200" height="1" fill="#ffffff" fill-opacity="0.08"/>
-  </g>
-  <rect x="0.5" y="0.5" width="1199" height="363" rx="24" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
-  <circle cx="34" cy="26" r="6" fill="#ff5f56"/><circle cx="54" cy="26" r="6" fill="#ffbd2e"/><circle cx="74" cy="26" r="6" fill="#27c93f"/>
+  <rect x="0.5" y="0.5" width="1199" height="363" rx="16" fill="#0d1117" stroke="#30363d"/>
+  <line x1="1" y1="52.5" x2="1199" y2="52.5" stroke="#21262d"/>
+  <circle cx="32" cy="26" r="5" fill="#30363d"/><circle cx="50" cy="26" r="5" fill="#30363d"/><circle cx="68" cy="26" r="5" fill="#30363d"/>
   <text x="600" y="31" text-anchor="middle" fill="#6e7681" font-size="14" font-family="'JetBrains Mono', Consolas, monospace">~/volodymyr — whoami</text>
   <g transform="translate(48 84)">
-    <rect width="357.3333333333333" height="112" rx="14" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.09"/>
-    <rect x="24" y="24" width="4" height="64" rx="2" fill="#58a6ff"/>
-    <text x="44" y="40" fill="#8b949e" font-size="14" font-family="'JetBrains Mono', Consolas, monospace">role</text>
-    <text x="44" y="70" fill="#e6edf3" font-size="22" font-weight="600" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">Team Lead @ Appexoft</text>
-    <text x="44" y="92" fill="#8b949e" font-size="14" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">since 2024</text>
+    <rect x="0.5" y="0.5" width="356.3333333333333" height="111" rx="10" fill="#161b22" stroke="#21262d"/>
+    <text x="24" y="40" fill="#8b949e" font-size="14" font-family="'JetBrains Mono', Consolas, monospace">role</text>
+    <text x="24" y="70" fill="#e6edf3" font-size="21" font-weight="600" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">Team Lead @ Appexoft</text>
+    <text x="24" y="92" fill="#8b949e" font-size="14" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">since 2024</text>
   </g>
   <g transform="translate(421.3333333333333 84)">
-    <rect width="357.3333333333333" height="112" rx="14" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.09"/>
-    <rect x="24" y="24" width="4" height="64" rx="2" fill="#a371f7"/>
-    <text x="44" y="40" fill="#8b949e" font-size="14" font-family="'JetBrains Mono', Consolas, monospace">experience</text>
-    <text x="44" y="70" fill="#e6edf3" font-size="22" font-weight="600" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">5+ years</text>
-    <text x="44" y="92" fill="#8b949e" font-size="14" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">full stack development</text>
+    <rect x="0.5" y="0.5" width="356.3333333333333" height="111" rx="10" fill="#161b22" stroke="#21262d"/>
+    <text x="24" y="40" fill="#8b949e" font-size="14" font-family="'JetBrains Mono', Consolas, monospace">experience</text>
+    <text x="24" y="70" fill="#e6edf3" font-size="21" font-weight="600" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">5+ years</text>
+    <text x="24" y="92" fill="#8b949e" font-size="14" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">full stack development</text>
   </g>
   <g transform="translate(794.6666666666666 84)">
-    <rect width="357.3333333333333" height="112" rx="14" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.09"/>
-    <rect x="24" y="24" width="4" height="64" rx="2" fill="#3fb950"/>
-    <text x="44" y="40" fill="#8b949e" font-size="14" font-family="'JetBrains Mono', Consolas, monospace">started_with</text>
-    <text x="44" y="70" fill="#e6edf3" font-size="22" font-weight="600" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">iOS development</text>
-    <text x="44" y="92" fill="#8b949e" font-size="14" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">before moving to web</text>
+    <rect x="0.5" y="0.5" width="356.3333333333333" height="111" rx="10" fill="#161b22" stroke="#21262d"/>
+    <text x="24" y="40" fill="#8b949e" font-size="14" font-family="'JetBrains Mono', Consolas, monospace">started_with</text>
+    <text x="24" y="70" fill="#e6edf3" font-size="21" font-weight="600" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">iOS development</text>
+    <text x="24" y="92" fill="#8b949e" font-size="14" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">before moving to web</text>
   </g>
   <g transform="translate(48 212)">
-    <rect width="357.3333333333333" height="112" rx="14" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.09"/>
-    <rect x="24" y="24" width="4" height="64" rx="2" fill="#58a6ff"/>
-    <text x="44" y="40" fill="#8b949e" font-size="14" font-family="'JetBrains Mono', Consolas, monospace">education</text>
-    <text x="44" y="70" fill="#e6edf3" font-size="22" font-weight="600" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">B.Sc. + M.Sc.</text>
-    <text x="44" y="92" fill="#8b949e" font-size="14" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">Computer Engineering, UzhNU</text>
+    <rect x="0.5" y="0.5" width="356.3333333333333" height="111" rx="10" fill="#161b22" stroke="#21262d"/>
+    <text x="24" y="40" fill="#8b949e" font-size="14" font-family="'JetBrains Mono', Consolas, monospace">education</text>
+    <text x="24" y="70" fill="#e6edf3" font-size="21" font-weight="600" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">B.Sc. + M.Sc.</text>
+    <text x="24" y="92" fill="#8b949e" font-size="14" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">Computer Engineering, UzhNU</text>
   </g>
   <g transform="translate(421.3333333333333 212)">
-    <rect width="357.3333333333333" height="112" rx="14" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.09"/>
-    <rect x="24" y="24" width="4" height="64" rx="2" fill="#a371f7"/>
-    <text x="44" y="40" fill="#8b949e" font-size="14" font-family="'JetBrains Mono', Consolas, monospace">languages</text>
-    <text x="44" y="70" fill="#e6edf3" font-size="22" font-weight="600" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">Ukrainian · English</text>
-    <text x="44" y="92" fill="#8b949e" font-size="14" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">native · professional</text>
+    <rect x="0.5" y="0.5" width="356.3333333333333" height="111" rx="10" fill="#161b22" stroke="#21262d"/>
+    <text x="24" y="40" fill="#8b949e" font-size="14" font-family="'JetBrains Mono', Consolas, monospace">languages</text>
+    <text x="24" y="70" fill="#e6edf3" font-size="21" font-weight="600" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">Ukrainian · English</text>
+    <text x="24" y="92" fill="#8b949e" font-size="14" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">native · professional</text>
   </g>
   <g transform="translate(794.6666666666666 212)">
-    <rect width="357.3333333333333" height="112" rx="14" fill="#ffffff" fill-opacity="0.035" stroke="#ffffff" stroke-opacity="0.09"/>
-    <rect x="24" y="24" width="4" height="64" rx="2" fill="#3fb950"/>
-    <text x="44" y="40" fill="#8b949e" font-size="14" font-family="'JetBrains Mono', Consolas, monospace">learning</text>
-    <text x="44" y="70" fill="#e6edf3" font-size="22" font-weight="600" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">AI engineering</text>
-    <text x="44" y="92" fill="#8b949e" font-size="14" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">and system design</text>
+    <rect x="0.5" y="0.5" width="356.3333333333333" height="111" rx="10" fill="#161b22" stroke="#21262d"/>
+    <text x="24" y="40" fill="#8b949e" font-size="14" font-family="'JetBrains Mono', Consolas, monospace">learning</text>
+    <text x="24" y="70" fill="#e6edf3" font-size="21" font-weight="600" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">AI engineering</text>
+    <text x="24" y="92" fill="#8b949e" font-size="14" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">and system design</text>
   </g>
 
 </svg>
