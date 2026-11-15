@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.svg?v=2" width="100%" alt="Volodymyr Kopynets · Team Lead · Full Stack TypeScript" />
+<img src="./assets/hero.svg?v=3" width="100%" alt="Volodymyr Kopynets · Team Lead · Full Stack TypeScript" />
 
 <!-- Contact buttons: uncomment and fill in when ready
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
@@ -8,8 +8,8 @@
 [![CV](https://img.shields.io/badge/CV-PDF-24292F?style=for-the-badge&logo=readthedocs&logoColor=white)](https://YOUR_CV_LINK)
 -->
 
-<img src="./assets/about.svg?v=1" width="100%" alt="Role, experience, education, languages, learning" />
+<img src="./assets/about.svg?v=2" width="100%" alt="Role, experience, education, languages, learning" />
 
-<img src="./assets/stack.svg?v=1" width="100%" alt="Tech stack: TypeScript, JavaScript, React, Next.js, React Native, Node.js, NestJS, Fastify, PostgreSQL, MongoDB, Redis, Stripe, OpenAI API, Git, GitHub" />
+<img src="./assets/stack.svg?v=2" width="100%" alt="Tech stack: TypeScript, JavaScript, React, Next.js, React Native, Node.js, NestJS, Fastify, PostgreSQL, MongoDB, Redis, Stripe, OpenAI API, Git, GitHub" />
 
 </div>
