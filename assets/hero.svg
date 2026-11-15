@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Volodymyr Kopynets, Team Lead, Full Stack TypeScript">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#111a2b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#3fb950"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#21262d" stroke-width="1"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="320" rx="20"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)" opacity="0.6"/>
+    <circle cx="1040" cy="60" r="180" fill="#58a6ff" opacity="0.07"/>
+    <circle cx="900" cy="300" r="140" fill="#3fb950" opacity="0.06"/>
+  </g>
+
+  <!-- left: name + role -->
+  <g font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">
+    <text x="64" y="92" fill="#8b949e" font-size="20" font-family="'JetBrains Mono', Consolas, monospace">~/volodymyr $ whoami</text>
+    <text x="64" y="150" fill="#e6edf3" font-size="52" font-weight="700">Volodymyr Kopynets</text>
+    <rect x="64" y="168" width="120" height="4" rx="2" fill="url(#accent)"/>
+    <text x="64" y="212" fill="#c9d1d9" font-size="24">Team Lead · Full Stack TypeScript</text>
+    <text x="64" y="246" fill="#8b949e" font-size="18">Web · Mobile · Backend  —  Uzhhorod, Ukraine · Remote</text>
+    <text x="64" y="276" fill="#3fb950" font-size="16" font-family="'JetBrains Mono', Consolas, monospace">● 5+ years · Team Lead at Appexoft<animate attributeName="opacity" values="1;0.4;1" dur="2.4s" repeatCount="indefinite"/></text>
+  </g>
+
+  <!-- right: code window -->
+  <g transform="translate(780 64)">
+    <rect width="356" height="192" rx="12" fill="#161b22" stroke="#30363d"/>
+    <circle cx="22" cy="20" r="6" fill="#ff5f56"/>
+    <circle cx="42" cy="20" r="6" fill="#ffbd2e"/>
+    <circle cx="62" cy="20" r="6" fill="#27c93f"/>
+    <text x="336" y="25" text-anchor="end" fill="#6e7681" font-size="13" font-family="'JetBrains Mono', Consolas, monospace">stack.ts</text>
+    <g font-family="'JetBrains Mono', Consolas, monospace" font-size="15">
+      <text x="22" y="66"><tspan fill="#ff7b72">const</tspan><tspan fill="#e6edf3"> stack = {</tspan></text>
+      <text x="40" y="94"><tspan fill="#7ee787">web</tspan><tspan fill="#e6edf3">: [</tspan><tspan fill="#a5d6ff">'React'</tspan><tspan fill="#e6edf3">, </tspan><tspan fill="#a5d6ff">'Next.js'</tspan><tspan fill="#e6edf3">],</tspan></text>
+      <text x="40" y="120"><tspan fill="#7ee787">mobile</tspan><tspan fill="#e6edf3">: [</tspan><tspan fill="#a5d6ff">'React Native'</tspan><tspan fill="#e6edf3">],</tspan></text>
+      <text x="40" y="146"><tspan fill="#7ee787">api</tspan><tspan fill="#e6edf3">: [</tspan><tspan fill="#a5d6ff">'NestJS'</tspan><tspan fill="#e6edf3">, </tspan><tspan fill="#a5d6ff">'Fastify'</tspan><tspan fill="#e6edf3">],</tspan></text>
+      <text x="22" y="174"><tspan fill="#e6edf3">};</tspan><tspan fill="#58a6ff">▌<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+    </g>
+  </g>
+</svg>
