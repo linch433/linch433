@@ -5,39 +5,64 @@
     { "name": "Languages", "items": [
       { "icon": "typescript", "name": "TypeScript" },
       { "icon": "javascript", "name": "JavaScript" },
-      { "icon": "html5", "name": "HTML" },
-      { "icon": "css3", "name": "CSS" }
+      { "icon": "python", "name": "Python" },
+      { "icon": "dart", "name": "Dart" },
+      { "icon": "swift", "name": "Swift" },
+      { "icon": "cplusplus", "name": "C++" },
+      { "icon": "c", "name": "C" }
     ]},
     { "name": "Frontend", "items": [
       { "icon": "react", "name": "React" },
       { "icon": "nextdotjs", "name": "Next.js" },
+      { "icon": "vite", "name": "Vite" },
       { "icon": "redux", "name": "Redux" },
       { "icon": null, "name": "Zustand" },
-      { "icon": "reactquery", "name": "TanStack Query" },
-      { "icon": "tailwindcss", "name": "Tailwind CSS" }
-    ]},
-    { "name": "Mobile", "items": [
-      { "icon": "react", "name": "React Native" },
-      { "icon": "expo", "name": "Expo" },
-      { "icon": "swift", "name": "Swift" }
+      { "icon": "reactquery", "name": "TanStack Query" }
     ]},
     { "name": "Backend", "items": [
       { "icon": "nodedotjs", "name": "Node.js" },
       { "icon": "nestjs", "name": "NestJS" },
       { "icon": "fastify", "name": "Fastify" },
       { "icon": "express", "name": "Express" },
-      { "icon": "graphql", "name": "GraphQL" }
+      { "icon": "graphql", "name": "GraphQL" },
+      { "icon": "socketdotio", "name": "Socket.IO" }
     ]},
     { "name": "Databases", "items": [
       { "icon": "postgresql", "name": "PostgreSQL" },
       { "icon": "mongodb", "name": "MongoDB" },
       { "icon": "redis", "name": "Redis" },
-      { "icon": "prisma", "name": "Prisma", "color": "e6edf3" }
+      { "icon": "supabase", "name": "Supabase" },
+      { "icon": "firebase", "name": "Firebase" }
     ]},
     { "name": "Infrastructure", "items": [
       { "icon": "docker", "name": "Docker" },
       { "icon": "amazonwebservices", "name": "AWS" },
-      { "icon": "vercel", "name": "Vercel" }
+      { "icon": "vercel", "name": "Vercel" },
+      { "icon": "githubactions", "name": "GitHub Actions" },
+      { "icon": "nginx", "name": "Nginx" }
+    ]},
+    { "name": "Tools", "items": [
+      { "icon": "git", "name": "Git" },
+      { "icon": "github", "name": "GitHub" },
+      { "icon": "postman", "name": "Postman" },
+      { "icon": "storybook", "name": "Storybook" },
+      { "icon": "jira", "name": "Jira", "color": "2684FF" }
+    ]},
+    { "name": "UI", "items": [
+      { "icon": "tailwindcss", "name": "Tailwind CSS" },
+      { "icon": "shadcnui", "name": "shadcn/ui" },
+      { "icon": "mui", "name": "Material UI" },
+      { "icon": "framer", "name": "Framer Motion" }
+    ]},
+    { "name": "Mobile", "items": [
+      { "icon": "react", "name": "React Native" },
+      { "icon": "expo", "name": "Expo" },
+      { "icon": "apple", "name": "iOS", "color": "e6edf3" }
+    ]},
+    { "name": "ORM / ODM", "items": [
+      { "icon": "prisma", "name": "Prisma", "color": "e6edf3" },
+      { "icon": "typeorm", "name": "TypeORM" },
+      { "icon": "mongoose", "name": "Mongoose" }
     ]},
     { "name": "Testing", "items": [
       { "icon": "jest", "name": "Jest", "color": "C21325" },
@@ -46,10 +71,6 @@
     { "name": "APIs", "items": [
       { "icon": "stripe", "name": "Stripe" },
       { "icon": "openai", "name": "OpenAI API" }
-    ]},
-    { "name": "Tools", "items": [
-      { "icon": "git", "name": "Git" },
-      { "icon": "github", "name": "GitHub" }
     ]}
   ]
 }
