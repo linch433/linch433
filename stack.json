@@ -5,13 +5,12 @@
     { "name": "Languages", "items": [
       { "icon": "typescript", "name": "TypeScript / JavaScript" },
       { "icon": "python", "name": "Python" },
-      { "icon": "cplusplus", "name": "C++" }
+      { "icon": "cplusplus", "name": "C / C++" }
     ]},
     { "name": "Frontend", "items": [
       { "icon": "react", "name": "React" },
       { "icon": "nextdotjs", "name": "Next.js" },
-      { "icon": "redux", "name": "Redux" },
-      { "icon": "reactquery", "name": "TanStack Query" },
+      { "icon": "redux", "name": "Redux / TanStack Query" },
       { "icon": "tailwindcss", "name": "Tailwind CSS" }
     ]},
     { "name": "Backend", "items": [
@@ -24,12 +23,12 @@
       { "icon": "react", "name": "React Native" },
       { "icon": "expo", "name": "Expo" },
       { "icon": "flutter", "name": "Flutter" },
-      { "icon": "swift", "name": "Swift (iOS)" }
+      { "icon": "swift", "name": "Swift" }
     ]},
     { "name": "Data", "items": [
       { "icon": "postgresql", "name": "PostgreSQL" },
       { "icon": "mongodb", "name": "MongoDB" },
-      { "icon": "redis", "name": "Redis" },
+      { "icon": "redis-classic", "name": "Redis" },
       { "icon": "prisma", "name": "Prisma", "color": "e6edf3" }
     ]},
     { "name": "AI & Integrations", "items": [
