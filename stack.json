@@ -18,7 +18,7 @@
       { "icon": "nodedotjs", "name": "Node.js" },
       { "icon": "nestjs", "name": "NestJS" },
       { "icon": "fastify", "name": "Fastify" },
-      { "icon": "graphql", "name": "GraphQL" }
+      { "icon": "stripe", "name": "Stripe" }
     ]},
     { "name": "Mobile", "items": [
       { "icon": "react", "name": "React Native" },
