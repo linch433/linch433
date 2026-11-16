@@ -10,24 +10,44 @@
     ]},
     { "name": "Frontend", "items": [
       { "icon": "react", "name": "React" },
-      { "icon": "nextdotjs", "name": "Next.js" }
+      { "icon": "nextdotjs", "name": "Next.js" },
+      { "icon": "redux", "name": "Redux" },
+      { "icon": null, "name": "Zustand" },
+      { "icon": "reactquery", "name": "TanStack Query" },
+      { "icon": "tailwindcss", "name": "Tailwind CSS" }
     ]},
     { "name": "Mobile", "items": [
-      { "icon": "react", "name": "React Native" }
+      { "icon": "react", "name": "React Native" },
+      { "icon": "expo", "name": "Expo" },
+      { "icon": "swift", "name": "Swift" }
     ]},
     { "name": "Backend", "items": [
       { "icon": "nodedotjs", "name": "Node.js" },
       { "icon": "nestjs", "name": "NestJS" },
-      { "icon": "fastify", "name": "Fastify" }
+      { "icon": "fastify", "name": "Fastify" },
+      { "icon": "express", "name": "Express" },
+      { "icon": "graphql", "name": "GraphQL" }
     ]},
     { "name": "Databases", "items": [
       { "icon": "postgresql", "name": "PostgreSQL" },
       { "icon": "mongodb", "name": "MongoDB" },
-      { "icon": "redis", "name": "Redis" }
+      { "icon": "redis", "name": "Redis" },
+      { "icon": "prisma", "name": "Prisma", "color": "e6edf3" }
     ]},
-    { "name": "APIs & Tools", "items": [
+    { "name": "Infrastructure", "items": [
+      { "icon": "docker", "name": "Docker" },
+      { "icon": "amazonwebservices", "name": "AWS" },
+      { "icon": "vercel", "name": "Vercel" }
+    ]},
+    { "name": "Testing", "items": [
+      { "icon": "jest", "name": "Jest", "color": "C21325" },
+      { "icon": null, "name": "Playwright" }
+    ]},
+    { "name": "APIs", "items": [
       { "icon": "stripe", "name": "Stripe" },
-      { "icon": "openai", "name": "OpenAI API" },
+      { "icon": "openai", "name": "OpenAI API" }
+    ]},
+    { "name": "Tools", "items": [
       { "icon": "git", "name": "Git" },
       { "icon": "github", "name": "GitHub" }
     ]}
