@@ -42,11 +42,11 @@ for (const row of rows) {
         let ic = icons[key(it.icon)];
         if (fs.existsSync(custom)) {
           const src = fs.readFileSync(custom, 'utf8');
-          ic = { path: src.match(/ d="([^"]+)"/)[1], hex: (src.match(/fill="#([0-9a-fA-F]{6})"/) || [, 'e6edf3'])[1] };
+          ic = { path: src.match(/ d="([^"]+)"/)[1], hex: (src.match(/fill="#([0-9a-fA-F]{6})"/) || [, 'e6edf3'])[1], evenodd: true };
         }
         if (!ic) throw new Error(`Unknown icon: ${it.icon}`);
-        const hex = it.color || (luminance(ic.hex) < 0.25 ? 'e6edf3' : ic.hex);
-        body += `    <g transform="translate(20 ${iy + 1}) scale(0.75)"><path d="${ic.path}" fill="#${hex}"/></g>\n`;
+        const hex = it.color || (!ic.evenodd && luminance(ic.hex) < 0.25 ? 'e6edf3' : ic.hex);
+        body += `    <g transform="translate(20 ${iy + 1}) scale(0.75)"><path d="${ic.path}" fill="#${hex}"${ic.evenodd ? ' fill-rule="evenodd"' : ''}/></g>\n`;
       } else {
         // No logo available: neutral badge with the first letter.
         body += `    <rect x="20.5" y="${iy + 1.5}" width="17" height="17" rx="4" fill="none" stroke="#6e7681"/>\n`;
