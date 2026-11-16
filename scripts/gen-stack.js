@@ -37,8 +37,14 @@ for (const row of rows) {
     cat.items.forEach((it, j) => {
       const iy = HEAD + j * ROW;
       if (it.icon) {
-        const ic = icons[key(it.icon)];
-        if (!ic) throw new Error(`Unknown simple-icons slug: ${it.icon}`);
+        // Custom icons in icons/<name>.svg (24x24, one path with a fill) win over simple-icons.
+        const custom = path.join(root, 'icons', `${it.icon}.svg`);
+        let ic = icons[key(it.icon)];
+        if (fs.existsSync(custom)) {
+          const src = fs.readFileSync(custom, 'utf8');
+          ic = { path: src.match(/ d="([^"]+)"/)[1], hex: (src.match(/fill="#([0-9a-fA-F]{6})"/) || [, 'e6edf3'])[1] };
+        }
+        if (!ic) throw new Error(`Unknown icon: ${it.icon}`);
         const hex = it.color || (luminance(ic.hex) < 0.25 ? 'e6edf3' : ic.hex);
         body += `    <g transform="translate(20 ${iy + 1}) scale(0.75)"><path d="${ic.path}" fill="#${hex}"/></g>\n`;
       } else {
