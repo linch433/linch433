@@ -2,7 +2,7 @@ name: Build stack card
 
 on:
   push:
-    paths: ['stack.json', 'scripts/gen-stack.js']
+    paths: ['stack.json', 'scripts/gen-stack.js', 'icons/**']
   workflow_dispatch:
 
 permissions:
