@@ -1,0 +1,35 @@
+{
+  "title": "~/volodymyr — cat stack.json",
+  "columns": 3,
+  "categories": [
+    { "name": "Languages", "items": [
+      { "icon": "typescript", "name": "TypeScript" },
+      { "icon": "javascript", "name": "JavaScript" },
+      { "icon": "html5", "name": "HTML" },
+      { "icon": "css3", "name": "CSS" }
+    ]},
+    { "name": "Frontend", "items": [
+      { "icon": "react", "name": "React" },
+      { "icon": "nextdotjs", "name": "Next.js" }
+    ]},
+    { "name": "Mobile", "items": [
+      { "icon": "react", "name": "React Native" }
+    ]},
+    { "name": "Backend", "items": [
+      { "icon": "nodedotjs", "name": "Node.js" },
+      { "icon": "nestjs", "name": "NestJS" },
+      { "icon": "fastify", "name": "Fastify" }
+    ]},
+    { "name": "Databases", "items": [
+      { "icon": "postgresql", "name": "PostgreSQL" },
+      { "icon": "mongodb", "name": "MongoDB" },
+      { "icon": "redis", "name": "Redis" }
+    ]},
+    { "name": "APIs & Tools", "items": [
+      { "icon": "stripe", "name": "Stripe" },
+      { "icon": "openai", "name": "OpenAI API" },
+      { "icon": "git", "name": "Git" },
+      { "icon": "github", "name": "GitHub" }
+    ]}
+  ]
+}
