@@ -10,6 +10,6 @@
 
 <img src="./assets/about.svg?v=3" width="100%" alt="Role, experience, education, languages" />
 
-<img src="./assets/stack.svg?v=8" width="100%" alt="Tech stack" />
+<img src="./assets/stack.svg?v=9" width="100%" alt="Tech stack" />
 
 </div>
