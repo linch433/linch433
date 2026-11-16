@@ -10,6 +10,6 @@
 
 <img src="./assets/about.svg?v=2" width="100%" alt="Role, experience, education, languages, learning" />
 
-<img src="./assets/stack.svg?v=3" width="100%" alt="Tech stack: TypeScript, JavaScript, React, Next.js, React Native, Node.js, NestJS, Fastify, PostgreSQL, MongoDB, Redis, Stripe, OpenAI API, Git, GitHub" />
+<img src="./assets/stack.svg?v=4" width="100%" alt="Tech stack" />
 
 </div>
