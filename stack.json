@@ -7,70 +7,65 @@
       { "icon": "javascript", "name": "JavaScript" },
       { "icon": "python", "name": "Python" },
       { "icon": "dart", "name": "Dart" },
+      { "icon": "kotlin", "name": "Kotlin" },
       { "icon": "swift", "name": "Swift" },
-      { "icon": "cplusplus", "name": "C++" },
-      { "icon": "c", "name": "C" }
+      { "icon": "cplusplus", "name": "C / C++" }
     ]},
     { "name": "Frontend", "items": [
       { "icon": "react", "name": "React" },
       { "icon": "nextdotjs", "name": "Next.js" },
-      { "icon": "vite", "name": "Vite" },
       { "icon": "redux", "name": "Redux" },
       { "icon": null, "name": "Zustand" },
-      { "icon": "reactquery", "name": "TanStack Query" }
+      { "icon": "reactquery", "name": "TanStack Query" },
+      { "icon": "tailwindcss", "name": "Tailwind CSS" },
+      { "icon": "vite", "name": "Vite" }
     ]},
     { "name": "Backend", "items": [
       { "icon": "nodedotjs", "name": "Node.js" },
       { "icon": "nestjs", "name": "NestJS" },
       { "icon": "fastify", "name": "Fastify" },
-      { "icon": "express", "name": "Express" },
       { "icon": "graphql", "name": "GraphQL" },
       { "icon": "socketdotio", "name": "Socket.IO" }
     ]},
-    { "name": "Databases", "items": [
+    { "name": "Data", "items": [
       { "icon": "postgresql", "name": "PostgreSQL" },
       { "icon": "mongodb", "name": "MongoDB" },
       { "icon": "redis", "name": "Redis" },
+      { "icon": "prisma", "name": "Prisma", "color": "e6edf3" },
+      { "icon": "typeorm", "name": "TypeORM" },
       { "icon": "supabase", "name": "Supabase" },
       { "icon": "firebase", "name": "Firebase" }
     ]},
-    { "name": "Infrastructure", "items": [
+    { "name": "DevOps & Testing", "items": [
       { "icon": "docker", "name": "Docker" },
       { "icon": "amazonwebservices", "name": "AWS" },
       { "icon": "vercel", "name": "Vercel" },
       { "icon": "githubactions", "name": "GitHub Actions" },
-      { "icon": "nginx", "name": "Nginx" }
-    ]},
-    { "name": "Tools", "items": [
-      { "icon": "git", "name": "Git" },
-      { "icon": "github", "name": "GitHub" },
-      { "icon": "postman", "name": "Postman" },
-      { "icon": "storybook", "name": "Storybook" },
-      { "icon": "jira", "name": "Jira", "color": "2684FF" }
-    ]},
-    { "name": "UI", "items": [
-      { "icon": "tailwindcss", "name": "Tailwind CSS" },
-      { "icon": "shadcnui", "name": "shadcn/ui" },
-      { "icon": "mui", "name": "Material UI" },
-      { "icon": "framer", "name": "Framer Motion" }
+      { "icon": "nginx", "name": "Nginx" },
+      { "icon": "jest", "name": "Jest", "color": "C21325" },
+      { "icon": null, "name": "Playwright" }
     ]},
     { "name": "Mobile", "items": [
       { "icon": "react", "name": "React Native" },
       { "icon": "expo", "name": "Expo" },
-      { "icon": "apple", "name": "iOS", "color": "e6edf3" }
+      { "icon": "flutter", "name": "Flutter" },
+      { "icon": "apple", "name": "iOS", "color": "e6edf3" },
+      { "icon": "android", "name": "Android" }
     ]},
-    { "name": "ORM / ODM", "items": [
-      { "icon": "prisma", "name": "Prisma", "color": "e6edf3" },
-      { "icon": "typeorm", "name": "TypeORM" },
-      { "icon": "mongoose", "name": "Mongoose" }
+    { "name": "AI", "items": [
+      { "icon": "openai", "name": "OpenAI API" },
+      { "icon": "anthropic", "name": "Claude API" },
+      { "icon": "langchain", "name": "LangChain" }
     ]},
-    { "name": "Testing", "items": [
-      { "icon": "jest", "name": "Jest", "color": "C21325" },
-      { "icon": null, "name": "Playwright" }
-    ]},
-    { "name": "APIs", "items": [
+    { "name": "Payments & Messaging", "items": [
       { "icon": "stripe", "name": "Stripe" },
-      { "icon": "openai", "name": "OpenAI API" }
+      { "icon": "twilio", "name": "Twilio" },
+      { "icon": "sendgrid", "name": "SendGrid / Mailgun" }
+    ]},
+    { "name": "Integrations", "items": [
+      { "icon": "telegram", "name": "Telegram Bot API" },
+      { "icon": "slack", "name": "Slack API" },
+      { "icon": "amazons3", "name": "AWS S3" }
     ]}
   ]
 }
