@@ -3,69 +3,40 @@
   "columns": 3,
   "categories": [
     { "name": "Languages", "items": [
-      { "icon": "typescript", "name": "TypeScript" },
-      { "icon": "javascript", "name": "JavaScript" },
+      { "icon": "typescript", "name": "TypeScript / JavaScript" },
       { "icon": "python", "name": "Python" },
-      { "icon": "dart", "name": "Dart" },
-      { "icon": "kotlin", "name": "Kotlin" },
-      { "icon": "swift", "name": "Swift" },
-      { "icon": "cplusplus", "name": "C / C++" }
+      { "icon": "cplusplus", "name": "C++" }
     ]},
     { "name": "Frontend", "items": [
       { "icon": "react", "name": "React" },
       { "icon": "nextdotjs", "name": "Next.js" },
       { "icon": "redux", "name": "Redux" },
-      { "icon": null, "name": "Zustand" },
       { "icon": "reactquery", "name": "TanStack Query" },
-      { "icon": "tailwindcss", "name": "Tailwind CSS" },
-      { "icon": "vite", "name": "Vite" }
+      { "icon": "tailwindcss", "name": "Tailwind CSS" }
     ]},
     { "name": "Backend", "items": [
       { "icon": "nodedotjs", "name": "Node.js" },
       { "icon": "nestjs", "name": "NestJS" },
       { "icon": "fastify", "name": "Fastify" },
-      { "icon": "graphql", "name": "GraphQL" },
-      { "icon": "socketdotio", "name": "Socket.IO" }
-    ]},
-    { "name": "Data", "items": [
-      { "icon": "postgresql", "name": "PostgreSQL" },
-      { "icon": "mongodb", "name": "MongoDB" },
-      { "icon": "redis", "name": "Redis" },
-      { "icon": "prisma", "name": "Prisma", "color": "e6edf3" },
-      { "icon": "typeorm", "name": "TypeORM" },
-      { "icon": "supabase", "name": "Supabase" },
-      { "icon": "firebase", "name": "Firebase" }
-    ]},
-    { "name": "DevOps & Testing", "items": [
-      { "icon": "docker", "name": "Docker" },
-      { "icon": "amazonwebservices", "name": "AWS" },
-      { "icon": "vercel", "name": "Vercel" },
-      { "icon": "githubactions", "name": "GitHub Actions" },
-      { "icon": "nginx", "name": "Nginx" },
-      { "icon": "jest", "name": "Jest", "color": "C21325" },
-      { "icon": null, "name": "Playwright" }
+      { "icon": "graphql", "name": "GraphQL" }
     ]},
     { "name": "Mobile", "items": [
       { "icon": "react", "name": "React Native" },
       { "icon": "expo", "name": "Expo" },
       { "icon": "flutter", "name": "Flutter" },
-      { "icon": "apple", "name": "iOS", "color": "e6edf3" },
-      { "icon": "android", "name": "Android" }
+      { "icon": "swift", "name": "Swift (iOS)" }
     ]},
-    { "name": "AI", "items": [
+    { "name": "Data", "items": [
+      { "icon": "postgresql", "name": "PostgreSQL" },
+      { "icon": "mongodb", "name": "MongoDB" },
+      { "icon": "redis", "name": "Redis" },
+      { "icon": "prisma", "name": "Prisma", "color": "e6edf3" }
+    ]},
+    { "name": "AI & Integrations", "items": [
       { "icon": "openai", "name": "OpenAI API" },
       { "icon": "anthropic", "name": "Claude API" },
-      { "icon": "langchain", "name": "LangChain" }
-    ]},
-    { "name": "Payments & Messaging", "items": [
-      { "icon": "stripe", "name": "Stripe" },
-      { "icon": "twilio", "name": "Twilio" },
-      { "icon": "sendgrid", "name": "SendGrid / Mailgun" }
-    ]},
-    { "name": "Integrations", "items": [
-      { "icon": "telegram", "name": "Telegram Bot API" },
-      { "icon": "slack", "name": "Slack API" },
-      { "icon": "amazons3", "name": "AWS S3" }
+      { "icon": "langchain", "name": "LangChain" },
+      { "icon": "stripe", "name": "Stripe" }
     ]}
   ]
 }
