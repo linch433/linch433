@@ -34,11 +34,17 @@ for (const row of rows) {
     body += `    <rect x="0.5" y="0.5" width="${(CARD_W - 1).toFixed(1)}" height="${h - 1}" rx="10" fill="#161b22" stroke="#21262d"/>\n`;
     body += `    <text x="20" y="32" fill="#8b949e" font-size="14" font-family="${MONO}">${esc(cat.name)}</text>\n`;
     cat.items.forEach((it, j) => {
-      const ic = icons[key(it.icon)];
-      if (!ic) throw new Error(`Unknown simple-icons slug: ${it.icon}`);
-      const hex = it.color || (luminance(ic.hex) < 0.25 ? 'e6edf3' : ic.hex);
       const iy = HEAD + j * ROW;
-      body += `    <g transform="translate(20 ${iy + 1}) scale(0.75)"><path d="${ic.path}" fill="#${hex}"/></g>\n`;
+      if (it.icon) {
+        const ic = icons[key(it.icon)];
+        if (!ic) throw new Error(`Unknown simple-icons slug: ${it.icon}`);
+        const hex = it.color || (luminance(ic.hex) < 0.25 ? 'e6edf3' : ic.hex);
+        body += `    <g transform="translate(20 ${iy + 1}) scale(0.75)"><path d="${ic.path}" fill="#${hex}"/></g>\n`;
+      } else {
+        // No logo available: neutral badge with the first letter.
+        body += `    <rect x="20.5" y="${iy + 1.5}" width="17" height="17" rx="4" fill="none" stroke="#6e7681"/>\n`;
+        body += `    <text x="29" y="${iy + 14}" text-anchor="middle" fill="#8b949e" font-size="11" font-weight="600" font-family="${SANS}">${esc(it.name[0])}</text>\n`;
+      }
       body += `    <text x="50" y="${iy + 15}" fill="#e6edf3" font-size="16" font-family="${SANS}">${esc(it.name)}</text>\n`;
     });
     body += `  </g>\n`;
