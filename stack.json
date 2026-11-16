@@ -5,7 +5,8 @@
     { "name": "Languages", "items": [
       { "icon": "typescript", "name": "TypeScript / JavaScript" },
       { "icon": "python", "name": "Python" },
-      { "icon": "cplusplus", "name": "C / C++" }
+      { "icon": "cplusplus", "name": "C / C++" },
+      { "icon": "asm", "name": "Assembly" }
     ]},
     { "name": "Frontend", "items": [
       { "icon": "react", "name": "React" },
@@ -31,11 +32,11 @@
       { "icon": "redis-classic", "name": "Redis" },
       { "icon": "prisma", "name": "Prisma", "color": "e6edf3" }
     ]},
-    { "name": "AI & Integrations", "items": [
-      { "icon": "openai", "name": "OpenAI API" },
-      { "icon": "anthropic", "name": "Claude API" },
-      { "icon": "langchain", "name": "LangChain" },
-      { "icon": "stripe", "name": "Stripe" }
+    { "name": "AI Engineering", "items": [
+      { "icon": "llm", "name": "LLM APIs (OpenAI / Claude)" },
+      { "icon": "rag", "name": "RAG / vector search" },
+      { "icon": "agents", "name": "AI agents / tool calling" },
+      { "icon": "langchain", "name": "LangChain" }
     ]}
   ]
 }
