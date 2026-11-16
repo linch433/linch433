@@ -22,22 +22,16 @@
     <text x="24" y="92" fill="#8b949e" font-size="14" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">before moving to web</text>
   </g>
   <g transform="translate(48 212)">
-    <rect x="0.5" y="0.5" width="356.3333333333333" height="111" rx="10" fill="#161b22" stroke="#21262d"/>
+    <rect x="0.5" y="0.5" width="543" height="111" rx="10" fill="#161b22" stroke="#21262d"/>
     <text x="24" y="40" fill="#8b949e" font-size="14" font-family="'JetBrains Mono', Consolas, monospace">education</text>
     <text x="24" y="70" fill="#e6edf3" font-size="21" font-weight="600" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">B.Sc. + M.Sc.</text>
     <text x="24" y="92" fill="#8b949e" font-size="14" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">Computer Engineering, UzhNU</text>
   </g>
-  <g transform="translate(421.3333333333333 212)">
-    <rect x="0.5" y="0.5" width="356.3333333333333" height="111" rx="10" fill="#161b22" stroke="#21262d"/>
+  <g transform="translate(608 212)">
+    <rect x="0.5" y="0.5" width="543" height="111" rx="10" fill="#161b22" stroke="#21262d"/>
     <text x="24" y="40" fill="#8b949e" font-size="14" font-family="'JetBrains Mono', Consolas, monospace">languages</text>
     <text x="24" y="70" fill="#e6edf3" font-size="21" font-weight="600" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">Ukrainian · English</text>
     <text x="24" y="92" fill="#8b949e" font-size="14" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">native · professional</text>
-  </g>
-  <g transform="translate(794.6666666666666 212)">
-    <rect x="0.5" y="0.5" width="356.3333333333333" height="111" rx="10" fill="#161b22" stroke="#21262d"/>
-    <text x="24" y="40" fill="#8b949e" font-size="14" font-family="'JetBrains Mono', Consolas, monospace">learning</text>
-    <text x="24" y="70" fill="#e6edf3" font-size="21" font-weight="600" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">AI engineering</text>
-    <text x="24" y="92" fill="#8b949e" font-size="14" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif">and system design</text>
   </g>
 
 </svg>
