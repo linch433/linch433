@@ -1,0 +1,26 @@
+name: Build stack card
+
+on:
+  push:
+    paths: ['stack.json', 'scripts/gen-stack.js']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm i --no-save simple-icons@13
+      - run: node scripts/gen-stack.js
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stack.svg
+          git diff --cached --quiet || (git commit -m "Regenerate stack card" && git push)
