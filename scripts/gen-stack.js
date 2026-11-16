@@ -8,7 +8,6 @@ const root = path.join(__dirname, '..');
 const cfg = JSON.parse(fs.readFileSync(path.join(root, 'stack.json'), 'utf8'));
 
 const W = 1200, PAD = 48, GAP = 16, TOP = 84, COLS = cfg.columns || 3;
-const CARD_W = (W - PAD * 2 - GAP * (COLS - 1)) / COLS;
 const HEAD = 52, ROW = 36, BOTTOM = 14;
 const SANS = "'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif";
 const MONO = "'JetBrains Mono', Consolas, monospace";
@@ -28,10 +27,12 @@ for (let i = 0; i < cfg.categories.length; i += COLS) rows.push(cfg.categories.s
 let y = TOP, body = '';
 for (const row of rows) {
   const h = HEAD + Math.max(...row.map(c => c.items.length)) * ROW + BOTTOM;
+  // A shorter last row stretches its cards to fill the full width.
+  const cardW = (W - PAD * 2 - GAP * (row.length - 1)) / row.length;
   row.forEach((cat, i) => {
-    const x = PAD + i * (CARD_W + GAP);
+    const x = PAD + i * (cardW + GAP);
     body += `  <g transform="translate(${x.toFixed(1)} ${y})">\n`;
-    body += `    <rect x="0.5" y="0.5" width="${(CARD_W - 1).toFixed(1)}" height="${h - 1}" rx="10" fill="#161b22" stroke="#21262d"/>\n`;
+    body += `    <rect x="0.5" y="0.5" width="${(cardW - 1).toFixed(1)}" height="${h - 1}" rx="10" fill="#161b22" stroke="#21262d"/>\n`;
     body += `    <text x="20" y="32" fill="#8b949e" font-size="14" font-family="${MONO}">${esc(cat.name)}</text>\n`;
     cat.items.forEach((it, j) => {
       const iy = HEAD + j * ROW;
